@@ -35,6 +35,12 @@ All colors MUST be HSL.
 
   --radius: 0.5rem;
 
+  /* Restaurant Theme Colors */
+  --gold: 45 100% 51%;
+  --gold-foreground: 222.2 84% 4.9%;
+  --dark-bg: 220 13% 8%;
+  --dark-card: 220 13% 12%;
+
   --sidebar-background: 0 0% 98%;
   --sidebar-foreground: 240 5.3% 26.1%;
   --sidebar-primary: 240 5.9% 10%;
@@ -46,10 +52,10 @@ All colors MUST be HSL.
 }
 
 .dark {
-  --background: 222.2 84% 4.9%;
+  --background: 220 13% 8%;
   --foreground: 210 40% 98%;
 
-  --card: 222.2 84% 4.9%;
+  --card: 220 13% 12%;
   --card-foreground: 210 40% 98%;
 
   --popover: 222.2 84% 4.9%;
@@ -124,7 +130,13 @@ All colors MUST be HSL.
   --color-sidebar-accent-foreground: hsl(var(--sidebar-accent-foreground));
   --color-sidebar-border: hsl(var(--sidebar-border));
   --color-sidebar-ring: hsl(var(--sidebar-ring));
-  
+
+  /* Restaurant Theme Colors */
+  --color-gold: hsl(var(--gold));
+  --color-gold-foreground: hsl(var(--gold-foreground));
+  --color-dark-bg: hsl(var(--dark-bg));
+  --color-dark-card: hsl(var(--dark-card));
+
   /* Border Radius */
   --radius-lg: var(--radius);
   --radius-md: calc(var(--radius) - 2px);
